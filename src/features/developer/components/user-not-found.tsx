@@ -27,7 +27,7 @@ export function UserNotFoundCard({ username }: Props) {
       <CardContent className="flex flex-wrap items-center justify-center gap-3 pt-2">
         <Link href="/">
           <Button variant="primary" className="flex items-center gap-1.5">
-            <ArrowLeft className="h-4 w-4" />
+            <ArrowLeft className="h-4 w-4 rtl:-scale-x-100" />
             <span>{t("profile.backHome")}</span>
           </Button>
         </Link>
